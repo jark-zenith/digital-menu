@@ -1,7 +1,7 @@
 {
-  "name": "Urban Plate — Teravex Digital Menu",
-  "short_name": "Urban Plate",
-  "description": "Browse the Urban Plate demonstration restaurant menu.",
+  "name": "Spicy Dishes — Teravex Digital Menu",
+  "short_name": "Spicy Dishes",
+  "description": "Browse the Spicy Dishes demonstration restaurant menu.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",

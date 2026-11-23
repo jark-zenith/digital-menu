@@ -8,8 +8,8 @@
   <link rel="icon" href="/icon.svg" type="image/svg+xml">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  <meta name="description" content="Explore the Urban Plate sample menu — Kenyan favourites, grills, fresh juices and more.">
-  <title>Urban Plate — Good food, good company</title>
+  <meta name="description" content="Explore the Spicy Dishes sample menu — Kenyan favourites, grills, fresh juices and more.">
+  <title>Spicy Dishes — Good food, good company</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
@@ -33,7 +33,7 @@
 <body>
   <header class="topbar">
     <div class="wrap" style="display:flex;align-items:center;justify-content:space-between">
-      <a class="brand" href="#" aria-label="Urban Plate home"><span class="brand-mark">U</span><span class="brand-name">urban plate<small>GOOD FOOD. GOOD COMPANY.</small></span></a>
+      <a class="brand" href="#" aria-label="Spicy Dishes home"><span class="brand-mark">U</span><span class="brand-name">spicy dishes<small>GOOD FOOD. GOOD COMPANY.</small></span></a>
       <div class="top-actions"><span class="table-tag">DEMO MENU · NAIROBI</span><button class="icon-btn" id="openCart" aria-label="Open order list"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 3h2l2.2 11.2a2 2 0 0 0 2 1.6h8.9a2 2 0 0 0 2-1.6L22 7H6"/><circle cx="10" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg><span class="cart-count" id="cartCount">0</span></button></div>
     </div>
   </header>
@@ -45,7 +45,7 @@
     <section class="toolbar" aria-label="Menu search and categories"><label class="search"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><input id="searchInput" type="search" placeholder="Search meals, drinks..." aria-label="Search menu"></label><nav class="filter-row" id="filters" aria-label="Menu categories"></nav></section>
     <section><div class="section-head"><h3 id="sectionTitle">Popular picks</h3><span id="resultCount"></span></div><div class="food-grid" id="foodGrid" aria-live="polite"></div></section>
   </main>
-  <footer class="footer"><div class="wrap"><div class="footer-inner"><div><a class="brand" href="#"><span class="brand-mark">U</span><span class="brand-name">urban plate<small style="color:#aeb9af">GOOD FOOD. GOOD COMPANY.</small></span></a><p class="footer-copy">A sample restaurant experience created to demonstrate the Teravex Digital Menu. Menu details, opening hours and prices are illustrative.</p></div><div class="footer-right"><strong style="color:white">Come hungry. Leave happy.</strong><br>Nairobi, Kenya<br>Sample contact details not configured</div></div><div class="footer-bottom"><span>© 2026 Urban Plate · Demonstration experience</span><span>POWERED BY <b class="teravex">TERAVEX</b></span></div></div></footer>
+  <footer class="footer"><div class="wrap"><div class="footer-inner"><div><a class="brand" href="#"><span class="brand-mark">U</span><span class="brand-name">spicy dishes<small style="color:#aeb9af">GOOD FOOD. GOOD COMPANY.</small></span></a><p class="footer-copy">A sample restaurant experience created to demonstrate the Teravex Digital Menu. Menu details, opening hours and prices are illustrative.</p></div><div class="footer-right"><strong style="color:white">Come hungry. Leave happy.</strong><br>Nairobi, Kenya<br>Sample contact details not configured</div></div><div class="footer-bottom"><span>© 2026 Spicy Dishes · Demonstration experience</span><span>POWERED BY <b class="teravex">TERAVEX</b></span></div></div></footer>
   <div class="overlay" id="overlay"></div>
   <aside class="drawer" id="drawer" aria-label="Your order list" aria-hidden="true"><div class="drawer-head"><h3>Your order list</h3><button class="close-btn" id="closeCart" aria-label="Close order list">×</button></div><div class="cart-items" id="cartItems"></div><div class="cart-total"><div class="total-line"><span>Estimated total</span><span id="cartTotal">KSh 0</span></div><button class="copy-order" id="copyOrder">Copy order summary</button><p class="cart-help">This is a demonstration only. Copying the summary does not place an order or process a payment.</p></div></aside>
   <div class="toast" id="toast" role="status"></div>
