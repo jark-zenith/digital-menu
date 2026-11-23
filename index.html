@@ -4,6 +4,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#f8f8f6">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta name="description" content="Explore the Urban Plate sample menu — Kenyan favourites, grills, fresh juices and more.">
   <title>Urban Plate — Good food, good company</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -96,6 +100,7 @@
       try{await navigator.clipboard.writeText(lines.join("\n"));toast("Order summary copied");}catch{toast("Clipboard unavailable in this browser");}
     });
     renderFilters();renderMenu();renderCart();
+    if ("serviceWorker" in navigator) window.addEventListener("load", () => navigator.serviceWorker.register("/sw.js").catch(() => {}));
   </script>
 </body>
 </html>
